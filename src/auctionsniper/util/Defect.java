@@ -2,7 +2,12 @@ package auctionsniper.util;
 
 public class Defect extends RuntimeException {
 
-  public Defect() {
+  /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+public Defect() {
     super();
   }
 

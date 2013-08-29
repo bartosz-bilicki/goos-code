@@ -22,7 +22,11 @@ import auctionsniper.util.Announcer;
 
 
 public class MainWindow extends JFrame { 
-  public static final String APPLICATION_TITLE = "Auction Sniper";
+  /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+public static final String APPLICATION_TITLE = "Auction Sniper";
   private static final String SNIPERS_TABLE_NAME = "Snipers Table";
   public static final String MAIN_WINDOW_NAME = "Auction Sniper Main";
   public static final String NEW_ITEM_ID_NAME = "item id";
